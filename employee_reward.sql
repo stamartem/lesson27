@@ -1,5 +1,5 @@
 /* Créer la table Employee */
-CREATE TABLE Lesson23.Employee (
+CREATE TABLE Lesson27.Employee (
     Employee_id int AUTO_INCREMENT PRIMARY KEY,
     First_name VARCHAR(50),
 	Last_name VARCHAR(50),
@@ -9,7 +9,7 @@ CREATE TABLE Lesson23.Employee (
 );
 
 /* Créer la table reward */
-CREATE TABLE praktika_2.reward (
+CREATE TABLE lesson27.reward (
     Employee_ref_id int,
     date_reward Date,
 	amount int,
